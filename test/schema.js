@@ -132,7 +132,7 @@ _.extend(Schema.prototype, {
         return true;
     },
 
-    validateAndThrow: function(schema, datum){
+    validateAndThrow: function(schema, datum, path){
         return true;
     },
 
